@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #0d0d0d;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.header {
+    color: aliceblue;
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.header div {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #0d0d0d;
+    z-index: 1;
+}
+
+nav img {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul li a:hover {
+    color: #171717;
+    background-color: aliceblue;
+}
+
+
+.sticky_button {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: fixed;
+    left: 10%;
+    top: 80%;
+    z-index: 1;
+
+}
+
+.headline1 {
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    overflow: hidden;
+    background-image: url("https://wallpaper.dog/large/5532223.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: fadeImage .5s ease-in-out;
+
+}
+
+.headline2 {
+    background-color: #1c1c21;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#headline3 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: start;
+    height: auto;
+
+}
+
+#titles {
+    font-size: 550%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info {
+    color: rgb(198, 198, 198);
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.smlr {
+    display: flex;
+    margin-top: 45px;
+  
+    
+
+}
+
+#headline3 .smlr {
+    flex-direction: column;
+
+}
+
+.fb {
+    padding-left: 15px;
+}
+
+.smlr div {
+
+    width: 100%;
+}
+
+.pro {
+    padding: 15px;
+    pointer-events: none;
+    display: flex;
+  
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(21, 20, 20);
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.images {
+    background-color: rgb(82, 73, 73);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.master_div {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #121010;
+    gap: 15PX;
+    margin: auto;
+    padding-top: 25px;
+
+    width: 100vw;
+}
+
+.large_img {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    padding: 15px;
+    display: none;
+
+}
+
+@keyframes fadeImage {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sticky_button {
+    0% {
+        border-radius: 100%;
+        width: 00px;
+        height: 00px;
+
+    }
+
+    100% {
+        border-radius: 0%;
+        width: 10px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    nav {
+        background-color: rgb(0, 0, 0);
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 50%;
+        display: none;
+    }
+
+    nav img {
+        display: flex;
+
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .sticky_button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .headline1 {
+        background-position: center;
+        height: 60vh;
+    }
+
+    .headline2 {
+        flex-direction: column;
+        overflow: hidden;
+
+    }
+
+    #headline3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smlr {
+        flex-direction: column;
+
+    }
+
+    #titles {
+        font-size: 350%;
+    }
+
+    .info {
+        font-size: small;
+    }
+
+    .images {
+        width: 100px;
+        height: 100px;
+    }
+
+    .large_img {
+        width: 100%;
+    }
+
+
+}
