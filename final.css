@@ -160,7 +160,7 @@ ul li a:hover {
 footer {
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 10px;
     align-items: center;
     font-size: 20px;
     width: 100%;
