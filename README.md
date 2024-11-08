@@ -17,7 +17,7 @@ A comprehensive web application for a Tattoo Studio that allows clients to brows
 
 ## Screenshots
 
-![Homepage](/screenshotshomepage (2).jpeg)
+![Homepage](/screenshotshomepage.jpeg)
 
 
 *Replace with your screenshots if available.*
