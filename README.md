@@ -20,8 +20,6 @@ A comprehensive web application for a Tattoo Studio that allows clients to brows
 ![Homepage](/tattoowebscreenshot.jpeg)
 
 
-*Replace with your screenshots if available.*
-
 ## Technologies Used
 
 - **Front-end**: HTML, CSS , Javascript 
