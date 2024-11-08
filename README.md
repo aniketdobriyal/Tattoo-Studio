@@ -1,31 +1,30 @@
-# Tic-Tac-Toe Android Game
+# Tattoo Studio Website
 
-A simple, offline, two-player Tic-Tac-Toe game built in Android Studio using Java/Kotlin. This app allows two players to play Tic-Tac-Toe on a single device without any internet connection. Perfect for quick rounds of fun!
+A comprehensive web application for a Tattoo Studio that allows clients to browse designs, book appointments, and learn more about the artists. The platform also includes an admin panel for studio management to handle bookings and update content. This project is aimed at providing a seamless experience for both clients and studio administrators.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
-- [How to Play](#how-to-play)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
 ## Features
 
-- **Two-player gameplay**: Play Tic-Tac-Toe with a friend on the same device.
-- **User-friendly interface**: Intuitive and responsive design for easy use.
-- **Score tracking**: Keeps track of each player’s wins and allows reset for new games.
-- **Offline mode**: No internet connection needed, play anytime, anywhere.
+- **Gallery**: Browse tattoo designs and completed works.
+- **Artist Profiles**: Learn about the studio's artists, their expertise, and see a portfolio of their work.
+- **Responsive Design**: Mobile-friendly interface for easy browsing and booking.
 
 ## Screenshots
 
-![Game Board Screenshot](screenshot1.png)
-*Add other screenshots here*
+![Homepage](screenshots/homepage.jpeg)
 
-## Installation
 
-1. **Clone the Repository**  
-   Clone this repository to your local machine using:
-   ```bash
-   git clone https://github.com/yourusername/tic-tac-toe-android.git
+*Replace with your screenshots if available.*
+
+## Technologies Used
+
+- **Front-end**: HTML, CSS , Javascript 
+- **Tools**: Figma for design, Git for version control , vs-code
+
+
