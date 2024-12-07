@@ -25,7 +25,7 @@ function chng() {
 
 
     else if (n == 3) {
-        x.style = "background-image:url('AdobeStock_291190502-scaled.jpeg')";
+        x.style = "background-image:url('IMG_7182.jpg')";
         n = 0;
         document.getElementById("titles").innerHTML = "<b>BOOK NOW</b> <br>";
 
